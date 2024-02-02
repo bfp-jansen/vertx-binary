@@ -1,6 +1,6 @@
 FROM registry.access.redhat.com/redhat-openjdk-18/openjdk18-openshift
 
-COPY ./jars .
+COPY ./*.jar .
 
 EXPOSE 8080
 
